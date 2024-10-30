@@ -1,1 +1,6 @@
-print('This is just python code')
+import random
+
+def computerChoice():
+    moves = ['rock', 'paper', 'scissors']
+    return random.choice(moves)
+
